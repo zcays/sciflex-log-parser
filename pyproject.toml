@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sciflex-log-parser"
+version = "0.1.0"
+description = "Parse sciFLEX log files into callable setup, field, run-check, and task objects."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Ivan Chao"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
