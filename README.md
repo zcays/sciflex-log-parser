@@ -6,10 +6,8 @@ Python objects. It has no runtime dependencies.
 
 ## Install
 
-Download the wheel from the GitHub release, then run:
-
 ```bash
-python3 -m pip install sciflex_log_parser-0.1.0-py3-none-any.whl
+pip install git+https://github.com/zcays/sciflex-log-parser.git
 ```
 
 ## Use
