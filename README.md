@@ -7,7 +7,7 @@ Python objects. It has no runtime dependencies.
 ## Install
 
 ```bash
-pip install git+https://github.com/zcays/sciflex-log-parser.git
+python3 -m pip install git+https://github.com/zcays/sciflex-log-parser.git
 ```
 
 ## Use
